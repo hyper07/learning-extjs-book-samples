@@ -1,0 +1,7 @@
+<b>Genre</b>
+<p>The genre of the movie.</p>
+<ul>
+	<li>Action</li>
+	<li>Comedy</li>
+	<li>Drama</li>
+</ul>
