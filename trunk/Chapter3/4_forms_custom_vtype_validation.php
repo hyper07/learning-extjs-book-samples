@@ -8,12 +8,14 @@
 	Ext.onReady(function(){
 		Ext.BLANK_IMAGE_URL = 'images/s.gif';
 		Ext.QuickTips.init();
-		Ext.form.VTypes["nameVal"]  = /^([A-Z]{1})[A-Za-z\-]+ ([A-Z]{1})[A-Za-z\-]+/;
-		Ext.form.VTypes["nameMask"] = /[A-Za-z\- ]/;
-		Ext.form.VTypes["nameText"] = 'In-valid Director Name.';
-		Ext.form.VTypes["name"] 	= function(v){
-			return Ext.form.VTypes["nameVal"].test(v);
-		}
+		
+        Ext.form.VTypes.nameVal  = /^([A-Z]{1})[A-Za-z\-]+ ([A-Z]{1})[A-Za-z\-]+/;
+		Ext.form.VTypes.nameMask = /[A-Za-z\- ]/;
+		Ext.form.VTypes.nameText = 'In-valid Director Name.';
+		Ext.form.VTypes.name 	= function(v){
+			return Ext.form.VTypes.nameVal.test(v);
+		};
+        
 		new Ext.FormPanel({ 
 			url: 'movie-form-submit.php',
 			renderTo: document.body,
