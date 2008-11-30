@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <row>
+      <id>1</id>
+      <title>Office Space</title>
+      <director>Mike Judge</director>
+      <released>1999-02-19</released>
+      <genre>1</genre>
+      <tagline>Work Sucks</tagline>
+      <coverthumb>84m.jpg</coverthumb>
+      <price>19.95</price>
+      <available>1</available>
+    </row>
+    <row>
+      <id>3</id>
+      <title>Super Troopers</title>
+      <director>Jay Chandrasekhar</director>
+      <released>2002-02-15</released>
+      <genre>1</genre>
+      <tagline>Altered State Police</tagline>
+      <coverthumb>42m.jpg</coverthumb>
+      <price>14.95</price>
+      <available>1</available>
+    </row>
+    <row>
+      <id>4</id>
+      <title>American Beauty</title>
+      <director>Sam Mendes</director>
+      <released>1999-10-01</released>
+      <genre>2</genre>
+      <tagline>... Look Closer</tagline>
+      <coverthumb>12m.jpg</coverthumb>
+      <price>19.95</price>
+      <available>1</available>
+    </row>
+    <row>
+      <id>5</id>
+      <title>The Big Lebowski</title>
+      <director>Joel Coen</director>
+      <released>1998-03-06</released>
+      <genre>1</genre>
+      <tagline>The &quot;Dude&quot;</tagline>
+      <coverthumb>49m.jpg</coverthumb>
+      <price>21.9</price>
+      <available>1</available>
+    </row>
+    <row>
+      <id>6</id>
+      <title>Fight Club</title>
+      <director>David Fincher</director>
+      <released>1999-10-15</released>
+      <genre>3</genre>
+      <tagline>How much can you know about yourself...</tagline>
+      <coverthumb>94m.jpg</coverthumb>
+      <price>19.95</price>
+      <available>1</available>
+    </row>
+</dataset>
