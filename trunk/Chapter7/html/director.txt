@@ -1,0 +1,7 @@
+<b>Director</b>
+<p>The full name of the person who directed the movie.</p>
+<ul>
+	<li>Mike Judge</li>
+	<li>Edward Norton</li>
+	<li>George Lucas</li>
+</ul>
