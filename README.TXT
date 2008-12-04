@@ -26,8 +26,8 @@ If the database examples are to be used, then a seperate '/cfg/' folder should a
 the same folder as this readme file. This folder needs a single file which connects to your 
 database. The file might look something like this...
 
-<?
-$link = mysql_pconnect("test-db.vinylfox.com", "test", "testuser") or die("Could not connect");
+<?php
+$link = mysql_pconnect("localhost", "test", "testuser") or die("Could not connect");
 mysql_select_db("test") or die("Could not select database");
 ?>
 
