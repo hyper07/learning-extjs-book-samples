@@ -117,10 +117,10 @@
 							value: e.value
 						},
 						success: function(resp,opt) {
-							e.commit();
+							grid.getStore().getById(opt.params.id).commit();
 						},
 						failure: function(resp,opt) {
-							e.reject();
+							grid.getStore().getById(opt.params.id).reject();
 						}
 					});
 				}
