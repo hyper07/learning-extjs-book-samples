@@ -30,7 +30,7 @@
         
 		new Ext.FormPanel({ 
 			url: 'movie-form-submit.php',
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			frame: true,
 			title: 'Movie Information Form',
 			width: 250,

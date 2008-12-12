@@ -87,7 +87,7 @@
 		var viewport = new Ext.Viewport({
 			layout: "border",
 			id: 'movieview',
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			items: [{
 				region: "north",
 				xtype: 'toolbar',

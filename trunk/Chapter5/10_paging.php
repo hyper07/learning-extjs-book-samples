@@ -60,7 +60,7 @@
 		store.load();
 	
 		var grid = new Ext.grid.GridPanel({
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			frame:true,
 			title: 'Movie Database',
 			height:300,

@@ -7,7 +7,7 @@
 	<script>
 	Ext.onReady(function(){
 		new Ext.Toolbar({
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			items: [{
 				xtype: 'tbbutton',
 				text: 'Button'

@@ -88,7 +88,7 @@
 	
 	    var grid = new Ext.grid.EditorGridPanel({
 			id: 'sample-grid',
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			frame:true,
 			title: 'Movie Database',
 	        height:250,
