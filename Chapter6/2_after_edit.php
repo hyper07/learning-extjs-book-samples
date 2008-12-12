@@ -42,7 +42,7 @@
 		var director_edit = new Ext.form.TextField({vtype: 'name'});
 	
 	    var grid = new Ext.grid.EditorGridPanel({
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			frame:true,
 			title: 'Movie Database',
 	        height:200,

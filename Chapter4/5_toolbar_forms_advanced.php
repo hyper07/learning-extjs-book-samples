@@ -62,7 +62,7 @@
 	        data : [['1','Comedy'],['2','Drama'],['3','Action']]
 	    });
 		var toolbar = new Ext.Toolbar({
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			items: [{
 				xtype: 'tbspacer'
 			},{

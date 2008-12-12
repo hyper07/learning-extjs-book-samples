@@ -23,7 +23,7 @@
 			};
 		}();
 		var toolbar = new Ext.Toolbar({
-			renderTo: document.body,
+			renderTo: Ext.getBody(),
 			items: [{
 				xtype: 'tbspacer'
 			},{
