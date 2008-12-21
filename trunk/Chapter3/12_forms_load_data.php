@@ -8,7 +8,7 @@
 	Ext.onReady(function(){
 		Ext.form.VTypes["nameVal"]  = /^([A-Z]{1})[A-Za-z\-]+ ([A-Z]{1})[A-Za-z\-]+/;
 		Ext.form.VTypes["nameMask"] = /[A-Za-z\- ]/;
-		Ext.form.VTypes["nameText"] = 'In-valid Director Name.';
+		Ext.form.VTypes["nameText"] = 'Invalid Director Name.';
 		Ext.form.VTypes["name"] 	= function(v){
 			return Ext.form.VTypes["nameVal"].test(v);
 		};
