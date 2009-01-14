@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css" />
+	<script type="text/javascript" src="ext/adapter/ext/ext-base.js"></script>
+	<script type="text/javascript" src="ext/ext-all.js"></script>
+	<script type="text/javascript" src="chapter9-3.js"></script>
+	<style type="text/css">
+		h1 { font-size: 20px;}
+		h2 { font-size: 16px;}
+		body { font-family: verdana; font-size: 62.5%; margin: 10px;  }
+		#mySessions { width: 300px; border: 3px double #ccc; float: left; padding: 5px;}
+		#agents { width: 300px; border: 3px double #ccc; float: left; padding: 5px;}
+		#mySessions div, #agents div { padding: 5px; background: #f3f3f3; margin: 4px 0;}
+		.content { display: none; }
+	</style>
+</head>
+<body>
+	<h1>Customer Service</h1>
+	<div id="mySessions">
+		<h2>My Sessions
+			<button id="hideSessions">Hide All</button>
+			<button id="tileSessions">Tile</button>
+		</h2>
+		
+		<div id="s-p1">
+			<h3>Bill</h3>
+			<p>Started at 12:31pm</p>
+			<div class="content">Sed dignissim urna. In eu lectus. Integer hendrerit lobortis libero. Sed cursus est in lectus. Nunc odio. Aenean scelerisque. Sed id risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris nisi mauris, vehicula quis, aliquet a, dignissim sit amet, enim. Nam varius. Vivamus tortor enim, consectetuer a, placerat vel, molestie non, nunc. Mauris sodales, libero a sollicitudin mattis, urna augue pharetra sem, vitae venenatis velit lorem luctus urna. Fusce rhoncus posuere dui. Suspendisse adipiscing ante id pede. </div>
+		</div>
+		<div id="s-p2">
+			<h3>Sarah</h3>
+			<p>Started at 12:31pm</p>
+				<div class="content">In eget lacus eu nibh hendrerit molestie. Maecenas nibh ante, laoreet id, lacinia quis, congue a, sapien. Aenean dui justo, lobortis quis, feugiat vitae, commodo ut, massa. Phasellus consectetuer feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus in ipsum. Suspendisse potenti. Donec ullamcorper lacus sed est. Sed bibendum porta risus. Suspendisse id arcu. Sed pharetra lorem id ante. </div>
+		</div>
+		<div id="s-p3">
+			<h3>Phillip</h3>
+			<p>Started at 12:31pm</p>
+			<div class="content">Curabitur molestie dolor non purus. Vestibulum velit lorem, sodales in, faucibus ac, interdum sit amet, odio. Suspendisse fringilla bibendum eros. Etiam facilisis neque non augue. Maecenas pulvinar iaculis pede. Integer lorem. Nulla sed nulla. Ut justo est, consectetuer id, imperdiet ut, auctor in, augue. Nulla venenatis faucibus dui. Vivamus vitae massa eu arcu fringilla malesuada. Donec porta auctor justo. In dapibus dolor vel velit. Sed orci. Proin leo ante, suscipit quis, euismod ut, volutpat at, sem. Vestibulum placerat arcu sed lacus. </div>
+		</div>
+		<div id="s-p4">
+			<h3>Tom</h3>
+			<p>Started at 12:31pm</p>
+			<div class="content">Duis lectus tellus, scelerisque eget, egestas sit amet, porta et, leo. Suspendisse viverra purus sit amet elit. Integer fringilla felis eu ipsum. Phasellus hendrerit malesuada mi. Phasellus velit. Aliquam convallis elit non magna. Phasellus orci purus, fringilla quis, tristique eu, commodo id, diam. Praesent pretium, erat nec suscipit malesuada, purus risus dapibus nisl, a posuere erat dui sit amet felis. Sed sed mi. Curabitur quis lacus. Duis feugiat ultricies ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris id tellus. Phasellus pretium sollicitudin urna. Etiam convallis congue ligula. Nullam lobortis mattis magna. Aenean dolor odio, aliquam at, hendrerit a, imperdiet sit amet, lorem. </div>
+		</div>
+	</div>
+	<div id="agents">
+		<h2>Agents
+			<button id="hideAgents">Hide All</button>
+				<button id="tileAgents">Tile</button>
+		</h2>
+		
+		<div id="a-h1">
+			<h3>Heidi</h3>
+			<p>Is dealing with 3 sessions, response time 23 seconds.</p>
+			<div class="content">
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce magna odio, dictum sit amet, laoreet a, iaculis et, nunc. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ut ante non lorem pellentesque pretium. Aenean et nisi ac lectus viverra commodo. Nullam in ipsum. Donec et neque sit amet eros ullamcorper convallis. Suspendisse ultrices pharetra mauris. Maecenas ut eros. Etiam tempor arcu at dolor. 
+			</div>
+		</div>
+		<div id="a-h2">
+			<h3>Ian</h3>
+			<p>Is dealing with 3 sessions, response time 23 seconds.</p>
+				<div class="content">Sed ligula. Donec arcu. Nullam nec ligula ac ligula scelerisque ullamcorper. Aenean ipsum nisi, rutrum nec, sagittis a, mollis eget, odio. Phasellus ullamcorper. Quisque malesuada faucibus turpis. Aliquam cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam laoreet velit vitae est. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum nec est ac tellus tincidunt elementum. Mauris vestibulum. Suspendisse potenti. Maecenas commodo urna ac tortor. Praesent lacus velit, rutrum ac, elementum ut, volutpat at, nibh. Pellentesque lorem nisi, volutpat id, eleifend nec, ullamcorper vitae, magna. Pellentesque vitae nisl non elit ornare cursus. Nam laoreet porttitor sem. Curabitur hendrerit. </div>
+		</div>
+		<div id="a-h3">
+			<h3>Rowena</h3>
+			<p>Is dealing with 3 sessions, response time 23 seconds.</p>
+			<div class="content">Fusce et nunc. Nam molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque egestas ullamcorper quam. Donec porttitor, diam nec ultricies suscipit, felis est luctus eros, in tincidunt sem elit ut mauris. Nullam a lectus venenatis metus pellentesque ornare. Maecenas euismod lobortis est. In suscipit. Maecenas dui tellus, iaculis quis, viverra at, congue vitae, ligula. Maecenas commodo, quam ut lacinia semper, nulla lectus lacinia justo, sit amet sodales lacus purus vel ipsum. Quisque neque risus, vehicula vitae, aliquet nec, cursus semper, nunc. In varius commodo pede. </div>
+		</div>
+		<div id="a-h4">
+			<h3>Kate</h3>
+			<p>Is dealing with 3 sessions, response time 23 seconds.</p>
+			<div class="content">Fusce consectetuer turpis vel felis bibendum condimentum. Mauris fringilla. Nullam pellentesque dolor nec mauris. Donec sit amet augue et nunc dapibus molestie. Donec viverra consectetuer urna. Morbi tincidunt imperdiet diam. Nulla auctor pulvinar dui. Morbi volutpat nunc. Pellentesque feugiat arcu in eros. In hac habitasse platea dictumst. </div>
+		</div>
+	</div>
+</body>
+</html>
