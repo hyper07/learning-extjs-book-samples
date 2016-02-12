@@ -1,0 +1,7 @@
+<img src='http://www.vinylfox.com/wp-content/uploads/2008/11/5142_cover-231x300.png' align='left'><a href='http://www.packtpub.com/learning-ext-js/'>http://www.packtpub.com/learning-ext-js/</a>
+
+As more and more of our work is done through a web browser, and more businesses build web rather than desktop applications, users want web applications that look and feel like desktop applications. Ext JS is a JavaScript library that makes it (relatively) easy to create desktop-style user interfaces in a web application, including multiple windows, toolbars, drop-down menus, dialog boxes, and much more. Both Commercial and Open Source licenses are available for Ext JS.<br>
+<br>
+Ext JS has the unique advantage of being the only client-side UI library that also works as an application development library. Learning Ext JS will help you create rich, dynamic, and AJAX-enabled web applications that look good and perform beyond the expectations of your users.<br>
+<br>
+From the building blocks of the application layout, to complex dynamic Grids and Forms, this book will guide you through the basics of using Ext JS, giving you the knowledge required to create rich user experiences beyond typical web interfaces. It will also provide you with the tools you need to use AJAX, by consuming server-side data directly into the many interfaces of the Ext JS component library.
